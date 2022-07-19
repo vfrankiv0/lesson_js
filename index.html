@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="timer">
+            <span class="left-num">01</span>:<span class="right-num">00</span>
+        </div>
+        <div class="button-container">
+            <form id="control">
+                <input type="button" value="Start game" id="startGame">
+                <input type="button" value="Check result" id="result-btn" disabled>
+                <input type="button" value="New game" id="new-btn">
+            </form>
+        </div>
+        <div class="puzzle-container">
+            <div class="puzzle-block" id="start">
+                <div class="puzzle piece1"></div>
+                <div class="puzzle piece2"></div>
+                <div class="puzzle piece3"></div>
+                <div class="puzzle piece4"></div>
+                <div class="puzzle piece5"></div>
+                <div class="puzzle piece6"></div>
+                <div class="puzzle piece7"></div>
+                <div class="puzzle piece8"></div>
+                <div class="puzzle piece9"></div>
+                <div class="puzzle piece10"></div>
+                <div class="puzzle piece11"></div>
+                <div class="puzzle piece12"></div>
+                <div class="puzzle piece13"></div>
+                <div class="puzzle piece14"></div>
+                <div class="puzzle piece15"></div>
+                <div class="puzzle piece16"></div>
+            </div>
+            <div class="puzzle-drop" id="end">
+                <div class="puzzle-rez">
+                </div>
+                <div class="puzzle-rez"></div>
+                <div class="puzzle-rez"></div>
+                <div class="puzzle-rez"></div>
+                <div class="puzzle-rez"></div>
+                <div class="puzzle-rez"></div>
+                <div class="puzzle-rez"></div>
+                <div class="puzzle-rez"></div>
+                <div class="puzzle-rez"></div>
+                <div class="puzzle-rez"></div>
+                <div class="puzzle-rez"></div>
+                <div class="puzzle-rez"></div>
+                <div class="puzzle-rez"></div>
+                <div class="puzzle-rez"></div>
+                <div class="puzzle-rez"></div>
+                <div class="puzzle-rez"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-container">
+        <div class="modal-message">
+            <hr>
+            <h2 class="message"></h2>
+            <hr>
+            <input type="button" value="Close" id="close-btn">
+            <input type="button" value="Check" id="check-btn">
+        </div>
+    </div>
+
+
+    <script src="script.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-color/2.1.2/jquery.color.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
